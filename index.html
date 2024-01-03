@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="color">
+        <!-- <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQBDgMBEQACEQEDEQH/xAAZAAEAAwEBAAAAAAAAAAAAAAAAAgMEAQf/xAAhEAEBAAIDAAMAAwEAAAAAAAAAAQIxAxEhMmFxQUJSEv/EABkBAQADAQEAAAAAAAAAAAAAAAACAwQFAf/EACARAQEBAAIDAAMBAQAAAAAAAAABAgMRBCExQVFxYTL/2gAMAwEAAhEDEQA/APXFrKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUe9W/FeXJ15ENb/TVxeLb718V3u7qu2t2OPOJ6jQvcYAAAAAAAAAAAAAAAAAAAAAAAAAAAABHLkk17ULuRo4/H1v/IquVv0qurW/j4cYnUjjxaA0NLhgAAAAAAAAAAAAAAAAAAAAAAAAAAf1y5yI3Ui3j4d8nxVnncvxVdWt/F42Me/yjJ0i0AAANDS4YAAAAAAAAAAAAAAAAAAAAAAAADlyk28tk+pYxrd6zFeXJb8VV3a38fiZnvXtDr3tBrk69AAAAANDS4YAAAAAAAAAAAAAAAAAAAAABaDlvU7ry3p7JdXqK8uTv4oXf6bOLxL/ANbQvu6qt7bc4zmdQEgAAAAAGhpcMAAAAAAAAAAAAAAAAAAAAAoIZckn3ULuRq4/G3r3r0rtuW1V1a344s4npzp4mAAAAAAAA0NLhgAAAAAAAAAAAAAAAAAAAI3OY/aN3Iu4/H3tVcrlvSrWu3Q4+DHH/XJ4iuAAAAAAAAAAaGlwwAAAAAAAAAAAAAAAAAHLl/zt5b0nx8euT/mKsuS38Va126HF42c+9e6ig0z9AAAAAAAAAAAANDS4YAAAAAAAAAAAAAADoI2yfy8Szm6vWVeXJ38Vd3+m3i8ST3tDd9V29tsnU6gAAAAAAAAAAAAADQ0uGAAAAAAAAAAAAAD0vmwk7vUV58n+fULvpr4/Et97V22/JVbb9bs4mZ1mDxIAAAAAAAAAAAAAABoaXDAAAAAAAAAAAAOwRy5JNeoXcjRx+Lrk931FVtyvviu6tb8cWcT1HEVoAAAAAAAAAAAAAAAADQ0uGAAAAAAAAAAAjlnIjdSLccO+T4ruVy/Fetdt/H4+cf7UZOkGgAAAAAAAAAAAAAAAAAABoaXDAAAAAAAAOw7jlyk28tkTxjW/kVZZ2/HxVrbdxeLnPvXtH7u0GuTr1AAAAAAAAAAAAAAAAAAAAAGhpcMAAAAAAAt62PZLb1ParLkn9Vd5P028XifnSF92r7bc5mZ1CR49AAAAAAAAAAAAAAAAAAAAAAaGlwwAAAAAEM+WTybQu5Gri8XWvevUU23LdVW2t+OPOJ1l14mAAAAAAAAAAAAAAAAAAAAAAAA0NLhgAAAI55zHXqN1Iv4+De/4pyzuW1V1a6HHw44/hJ4itOgAAAAAAAAAAAAAAAAAAAAAAAAAaGlwwAEblJuo29LOPi3v4ryzuX4ru638XjZx9RQaYAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NLho29e15b0lnF1epEMuS3Wld3fw28fiZnvSH8+7V3ttk6+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAALsr1pfb05HBib17U2231Tba6uMZxOoPEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH/2Q==" alt=""> -->
+        <!-- <img src="https://t3.ftcdn.net/jpg/03/43/37/44/360_F_343374408_yNbsT9jProN3eIrHEccPgsXs8NYmo9Hc.jpg" alt=""> -->
+        <img src="https://static.vecteezy.com/system/resources/previews/021/620/042/non_2x/geometric-red-abstract-background-free-vector.jpg" alt="">
+    </div>
+    <div class="calculator-section">
+
+        <div class="heading">
+            <h1>CALCULATOR</h1>
+            <p>HTML CSS & Java Script Design Concept. </p>
+        </div>
+
+        <div class="container">
+        
+            <input type="text" id="display" readonly>
+            <div class="button-container">
+                <button class="btn-first" onclick="
+                currentdisplay = currentdisplay + '+';
+                document.querySelector('#display').value = currentdisplay;">+</button>
+
+                <button class="btn-first" onclick="
+                currentdisplay = currentdisplay + '-';
+                document.querySelector('#display').value = currentdisplay;">-</button>
+
+                <button class="btn-first" onclick="
+                currentdisplay = currentdisplay + '*';
+                document.querySelector('#display').value = currentdisplay;">*</button>
+
+                <button class="btn-first" onclick="
+                currentdisplay = currentdisplay + '/';
+                document.querySelector('#display').value = currentdisplay;">/</button>
+
+                <button class="btn" onclick="
+                currentdisplay = currentdisplay + '7';
+                document.querySelector('#display').value = currentdisplay;">7</button>
+
+                <button class="btn" onclick="
+                currentdisplay = currentdisplay + '8';
+                document.querySelector('#display').value = currentdisplay;">8</button>
+
+                <button class="btn" onclick="
+                currentdisplay = currentdisplay + '9';
+                document.querySelector('#display').value = currentdisplay;">9</button>
+
+                <button class="btn" onclick="
+                currentdisplay = currentdisplay + '4';
+                document.querySelector('#display').value = currentdisplay;">4</button>
+
+                <button class="btn" onclick="
+                currentdisplay = currentdisplay + '5';
+                document.querySelector('#display').value = currentdisplay;">5</button>
+
+                <button class="btn" onclick="
+                currentdisplay = currentdisplay + '6';
+                document.querySelector('#display').value = currentdisplay;">6</button>
+
+                <button class="btn" onclick="
+                currentdisplay = currentdisplay + '1';
+                document.querySelector('#display').value = currentdisplay;">1</button>
+
+                <button class="btn" onclick="
+                currentdisplay = currentdisplay + '2';
+                document.querySelector('#display').value = currentdisplay;">2</button>
+
+                <button class="btn" onclick="
+                currentdisplay = currentdisplay + '3';
+                document.querySelector('#display').value = currentdisplay;">3</button>
+
+                <button class="btn" onclick="
+                currentdisplay = currentdisplay + '0';
+                document.querySelector('#display').value = currentdisplay;">0</button>
+
+                <button class="btn" onclick="
+                currentdisplay = currentdisplay + '.';
+                document.querySelector('#display').value = currentdisplay;">.</button>
+
+                <button class="btn-equal" onclick="
+                let result = eval(currentdisplay);
+                currentdisplay = result;
+                document.querySelector('#display').value = currentdisplay;">=</button>
+
+                <button class="btn-clear" onclick="
+                currentdisplay = '';
+                document.querySelector('#display').value = currentdisplay;">AC</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentdisplay = '';
+        document.querySelector('#display').value = currentdisplay;
+    </script>
+
+</body>
+
+</html>

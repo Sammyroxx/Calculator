@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.color img {
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.calculator-section {
+    display: flex;
+    position: relative;
+}
+
+.heading {
+    text-align: center;
+    margin: 35vh 10vh;
+    font-size: 3vh;
+    font-family: fantasy;
+    letter-spacing: 5px;
+}
+.heading h1{
+    font-size: 8vh
+}
+.heading p {
+    width: 100%;
+    padding: 20px 0px;
+    color: rgb(82, 81, 81);
+}
+
+.container {
+    border-radius: 7px;
+    width: 485px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 6vh;
+    padding: 50px 0px;
+    background-color: white;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/021/620/042/non_2x/geometric-red-abstract-background-free-vector.jpg);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 10px;
+}
+
+#display {
+    text-align: center;
+    display: flex;
+    font-size: 18px;
+    margin: auto;
+    padding: 12px 55px;
+     border: none;
+    background-color: black;
+    color: rgb(255, 255, 255); 
+    border-radius: 5px;
+}
+
+.button-container {
+    width: 63%;
+    margin: auto;
+    padding-top: 5vh;
+}
+
+.btn {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    margin: 6px;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 6vh;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 7px 1px;
+}
+
+.btn-first {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    background-color: black;
+    font-weight: 800;
+    color: white;
+    margin: 6px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6vh;
+}
+
+.btn-equal {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    margin: 6px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6vh;
+    background-color: blueviolet;
+    color: white;
+}
+
+
+.btn-clear {
+    width: 291px;
+    height: 50px;
+    font-size: 20px;
+    margin: 3px;
+    font-weight: 600;
+    background-color: #eb1f1f;
+    border: none;
+    color: white;
+    border-radius: 5vh;
+}
+
+
+/* Responsive designs in mobiles */
+
+@media (max-width:600px) {
+
+    .btn {
+        width: 40px;
+        height: 40px;
+        margin: 9px;
+        font-size: 17px;
+    }
+    .btn-first {
+        width: 40px;
+        height: 40px;
+        font-size: 17px;
+        margin: 9px;
+    }
+    .btn-clear {
+        width: 180px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .btn-equal {
+        width: 175px;
+        height: 40px;
+        font-size: 27px;
+    }
+    .calculator-section {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+    }
+    #display{
+        padding: 10px 5px;
+    }
+    .container{
+        width: 290px;
+        padding: 30px 0px;
+        margin-top: 3vh;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 5px;
+        background-image: url(https://www.pngkey.com/png/full/15-155990_all-makes-models-red-line-background-vector.png);
+        background-position:center;
+        background-size:cover;
+    }
+    h1 {
+        text-align: center;
+        margin-top: 2vh;
+    }
+    .heading {
+        text-align: center;
+        margin: 0vh 0vh;
+        font-size: 3vh;
+        font-family: fantasy;
+        letter-spacing: 5px;
+    }
+    .heading h1{
+        font-size: 4.2vh
+    }
+    .heading p {
+        width: 100%;
+        padding: 5px 0px;
+        font-size: 2vh;
+        color: rgb(82, 81, 81);
+    }
+
+}
+
+/* Responsive designs normal laptops */
+
+@media (min-width:601px) and (max-width:1024px) {
+
+    .btn {
+        width: 50px;
+        height: 50px;
+        margin: 9px;
+        font-size: 20px;
+    }
+    .button-container {
+        width: 55%;
+        margin: auto;
+        padding-top: 4vh;
+    }
+    .btn-first {
+        width: 50px;
+        height: 50px;
+        margin: 9px;
+        font-size: 20px;
+    }
+    .btn-clear {
+        width: 200px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .btn-equal {
+        width: 195px;
+        height: 40px;
+        font-size: 27px;
+    }
+    .calculator-section {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+    }
+    #display{
+        padding: 17px 25px;
+    }
+    .container{
+        width: 400px;
+        padding: 60px 0px;
+        margin-top: 6vh;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 5px;
+        background-image: url(https://www.pngkey.com/png/full/15-155990_all-makes-models-red-line-background-vector.png);
+        background-position:center;
+        background-size:cover;
+    }
+    h1 {
+        text-align: center;
+        margin-top: 2vh;
+    }
+    .heading {
+        text-align: center;
+        margin: 0vh 0vh;
+        font-size: 3vh;
+        font-family: fantasy;
+        letter-spacing: 5px;
+    }
+    .heading h1{
+        font-size: 6.2vh
+    }
+    .heading p {
+        width: 100%;
+        padding: 5px 0px;
+        font-size: 2.5vh;
+        color: rgb(82, 81, 81);
+    }
+
+}
+
+/* Responsive designs in smalles mobiles */
+
+@media (max-width:325px) {
+
+    .btn {
+        width: 35px;
+        height: 34px;
+        margin: 7px;
+        font-size: 17px;
+    }
+
+    .btn-first {
+        width: 35px;
+        height: 34px;
+        margin: 7px;
+        font-size: 17px;
+    }
+    
+    .btn-clear {
+        width: 145px;
+        height: 29px;
+        font-size: 15px;
+    }
+    .btn-equal {
+        width: 140px;
+        height: 29px;
+        font-size: 27px;
+    }
+    .calculator-section {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+    }
+    #display{
+        padding: 7px 0px;
+    }
+    .container{
+        width: 255px;
+        padding: 30px 0px;
+        margin-top: 3vh;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 5px;
+        background-image: url(https://www.pngkey.com/png/full/15-155990_all-makes-models-red-line-background-vector.png);
+        background-position:center;
+        background-size:cover;
+    }
+    h1 {
+        text-align: center;
+        margin-top: 2vh;
+    }
+    .heading {
+        text-align: center;
+        margin: 0vh 0vh;
+        font-size: 3vh;
+        font-family: fantasy;
+        letter-spacing: 5px;
+    }
+    .heading h1{
+        font-size: 4.2vh
+    }
+    .heading p {
+        width: 100%;
+        padding: 5px 0px;
+        font-size: 1.5vh;
+        color: rgb(82, 81, 81);
+    }
+
+}
